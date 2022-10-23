@@ -6,7 +6,7 @@ export class CreateTipoSanguineoController {
 
         const { tipo, fator } = request.body;
 
-        const tipo_sanguineo = await prismaClient.Sangue.create({
+        const tipo_sanguineo = await prismaClient.sangue.create({
             data: {
                 tipo,
                 fator

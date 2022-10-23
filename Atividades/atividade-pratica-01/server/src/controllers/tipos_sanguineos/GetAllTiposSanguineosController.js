@@ -4,7 +4,7 @@ export class GetAllTiposSanguineosController {
 
     async handle(request, response) {
 
-        const tipos_sanguineos = await prismaClient.Sangue.findMany({
+        const tipos_sanguineos = await prismaClient.sangue.findMany({
             include: {
                 pessoas: true
             }
