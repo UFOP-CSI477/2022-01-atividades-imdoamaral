@@ -41,8 +41,8 @@ model Pessoa {
   cidade_id         Int
   tipo_sanguineo_id Int
 
-  cidade         Cidade         @relation(fields: [cidade_id], references: [id])
-  tipo_sanguineo Tipo_Sanguineo @relation(fields: [tipo_sanguineo_id], references: [id])
+  cidade         Cidade @relation(fields: [cidade_id], references: [id])
+  tipo_sanguineo Sangue @relation(fields: [tipo_sanguineo_id], references: [id])
 
   doacoes Doacao[]
 
@@ -70,7 +70,7 @@ model Doacao {
   local  Local  @relation(fields: [local_id], references: [id])
 }
 
-model Tipo_Sanguineo {
+model Sangue {
   id    Int    @id @default(autoincrement())
   tipo  String
   fator String
