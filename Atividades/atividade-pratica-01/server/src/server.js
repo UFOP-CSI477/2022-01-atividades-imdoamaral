@@ -7,6 +7,7 @@ import { pessoaRouter } from './routes/pessoas.js';
 import { localRouter } from './routes/locais_coleta.js';
 import { doacaoRouter } from './routes/doacoes.js';
 import { produtoRouter } from './routes/produtos.js';
+import { distribuicaoRouter } from './routes/distribuicoes.js';
 import cors from 'cors';
 
 const PORT = 4000;
@@ -23,6 +24,7 @@ app.use(pessoaRouter);
 app.use(localRouter);
 app.use(doacaoRouter);
 app.use(produtoRouter);
+app.use(distribuicaoRouter);
 
 app.listen(PORT, () => {
     console.log(`[SERVER] Server is running on port ${PORT}.`);
