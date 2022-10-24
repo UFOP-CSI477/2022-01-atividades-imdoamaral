@@ -11,4 +11,4 @@
 
 ## [Projeto final:](./Projeto/README.md)
 
-Apresente uma breve descrição do seu projeto.
+O meu projeto final teve como tema o desenvolvimento de um sistema web de gerenciamento de impressoras e toners.
