@@ -1,6 +1,6 @@
-# **CSI606-2021-02 - Remoto - Proposta de Trabalho Final**
+# **CSI606-2022-01 - Presencial - Proposta de Trabalho Final**
 
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluno: Israel Chad Vader*
 
 --------------
 
@@ -8,28 +8,32 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+  A finalidade dessa aplicação é servir como um sistema web para a gestão de impressoras e toners, com uma interface de usuário intuitiva e moderna. As principais funcionalidades compreendem a possibilidade de executar operações CRUD sobre todos os componentes principais da aplicação.
 
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de ...
+  O trabalho final tem como tema o desenvolvimento de um sistema de gerenciamento de impressoras e toners.
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  Este projeto terá as seguintes funcionalidades...
+  - Adicionar e remover impressora e toners;
+  - Obter informações de departamento onde está alocada e o proprietário da impressora;
+  - Inúmeras informações das impressoras: número de série, fabricante, modelo, departamento, proprietário e modelo de toner utilizado etc.
+  - Informar a última troca de toner;
+  - Contabilizar páginas impressas em cada impressora.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados ...
+  Neste trabalho serão desconsiderados certos relacionamentos entre tabelas de Banco de Dados por questões de tempo e propósito. Também optou-se por não fazer uso de Softwares ORM e escrever os comandos SQL na mão e na raça, além de Javascript puro no Frontend sem uso de Frameworks.
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
+  Não houve fase de prototipagem mas a interface gráfica foi amplamente baseada no seguinte repositório: https://github.com/giovannabadaro/treinamento-visao
 
 ### 5. Referências
 
-  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.
+  Nada a declarar.
