@@ -1,6 +1,6 @@
 # **CSI606-2022-01 - Presencial - Proposta de Trabalho Final**
 
-## *Aluno: Israel Chad Vader*
+## *Aluno: Israel*
 
 --------------
 
