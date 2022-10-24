@@ -1,6 +1,6 @@
 # **CSI606-2022-01 - Presencial - Proposta de Trabalho Final**
 
-## *Aluno: Israel Chad Vader*
+## *Aluno: Israel*
 
 --------------
 
@@ -13,7 +13,7 @@
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de um sistema de gerenciamento de impressoras e toners.
+  O trabalho final tem como tema o desenvolvimento de um sistema web de gerenciamento de impressoras e toners.
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
