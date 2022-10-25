@@ -12,6 +12,10 @@ const Menu = () => {
                 <li><Link to='/estados/create'>Criar Estado</Link></li>
                 <li><Link to='/cidades'>Listar Cidades</Link></li>
                 <li><Link to='/cidades/create'>Criar Cidade</Link></li>
+                <li><Link to='/pessoas'>Listar Pessoas</Link></li>
+                <li><Link to='/tipos-sanguineos'>Tipos Sanguíneos</Link></li>
+                <li><Link to='/pessoas/create'>Criar Pessoa</Link></li>
+                <li><Link to='/tipos-sanguineos/create'>Criar Tipo Sanguíneo</Link></li>
             </ul>
         </div>
     )
