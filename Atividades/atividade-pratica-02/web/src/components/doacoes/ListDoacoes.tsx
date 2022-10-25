@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 
-interface DoacoesModel {
+interface DoacaoModel {
     id: number;
     pessoa_id: number;
     local_id: number;
@@ -9,7 +9,7 @@ interface DoacoesModel {
 
 const ListDoacoes = () => {
 
-    const [ doacoes, setDoacoes ] = useState<DoacoesModel[]>([]);
+    const [ doacoes, setDoacoes ] = useState<DoacaoModel[]>([]);
     
     useEffect(() => {
         api.get('/doacoes')
