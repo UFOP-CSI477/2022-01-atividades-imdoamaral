@@ -16,6 +16,8 @@ const Menu = () => {
                 <li><Link to='/tipos-sanguineos'>Tipos Sanguíneos</Link></li>
                 <li><Link to='/pessoas/create'>Criar Pessoa</Link></li>
                 <li><Link to='/tipos-sanguineos/create'>Criar Tipo Sanguíneo</Link></li>
+                <li><Link to='/locais-coleta'>Listar Locais de Coleta</Link></li>
+                <li><Link to='/locais-coleta/create'>Criar Local de Coleta</Link></li>
             </ul>
         </div>
     )

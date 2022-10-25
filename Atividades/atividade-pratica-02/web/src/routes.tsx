@@ -9,6 +9,8 @@ import ListEstados from './components/estados/ListEstados';
 import ShowEstado from './components/estados/ShowEstado';
 import UpdateEstado from './components/estados/UpdateEstado';
 import Header from './components/header/Header';
+import CreateLocalColeta from './components/locais_coleta/CreateLocalColeta';
+import ListLocaisColeta from './components/locais_coleta/ListLocaisColeta';
 import CreatePessoa from './components/pessoas/CreatePessoa';
 import ListPessoas from './components/pessoas/ListPessoas';
 import CreateTipoSanguineo from './components/tipos_sanguineos/CreateTipoSanguineo';
@@ -37,6 +39,8 @@ const AppRoutes = () => {
                 <Route path='/tipos-sanguineos' element={<ListTipoSanguineos />} />
                 <Route path='/pessoas/create' element={<CreatePessoa />} />
                 <Route path='/tipos-sanguineos/create' element={<CreateTipoSanguineo />} />
+                <Route path='/locais-coleta' element={<ListLocaisColeta />} />
+                <Route path='/locais-coleta/create' element={<CreateLocalColeta />} />
 
             </Routes>
 
