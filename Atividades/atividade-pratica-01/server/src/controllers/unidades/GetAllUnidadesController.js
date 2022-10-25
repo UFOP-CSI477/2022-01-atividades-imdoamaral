@@ -6,6 +6,6 @@ export class GetAllUnidadesController {
 
         const unidades = await prismaClient.unidade.findMany();
 
-        return response.json();
+        return response.json(unidades);
     }
 }

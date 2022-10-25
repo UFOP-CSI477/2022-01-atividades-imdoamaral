@@ -4,6 +4,8 @@ import CreateCidade from './components/cidades/CreateCidade';
 import ListCidades from './components/cidades/ListCidades';
 import ShowCidade from './components/cidades/ShowCidade';
 import UpdateCidade from './components/cidades/UpdateCidade';
+import CreateDistribuicao from './components/distribuicoes/CreateDistribuicao';
+import ListDistribuicoes from './components/distribuicoes/ListDistribuicoes';
 import CreateDoacao from './components/doacoes/CreateDoacao';
 import ListDoacoes from './components/doacoes/ListDoacoes';
 import CreateEstado from './components/estados/CreateEstado';
@@ -19,6 +21,8 @@ import CreateProduto from './components/produtos/CreateProduto';
 import ListProdutos from './components/produtos/ListProdutos';
 import CreateTipoSanguineo from './components/tipos_sanguineos/CreateTipoSanguineo';
 import ListTipoSanguineos from './components/tipos_sanguineos/ListTiposSanguneos';
+import CreateUnidade from './components/unidades/CreateUnidade';
+import ListUnidades from './components/unidades/ListUnidades';
 
 const AppRoutes = () => {
 
@@ -49,6 +53,10 @@ const AppRoutes = () => {
                 <Route path='/doacoes/create' element={<CreateDoacao />} />
                 <Route path='/produtos' element={<ListProdutos />} />
                 <Route path='/produtos/create' element={<CreateProduto />} />
+                <Route path='/distribuicoes' element={<ListDistribuicoes />} />
+                <Route path='/distribuicoes/create' element={<CreateDistribuicao />} />
+                <Route path='/unidades' element={<ListUnidades />} />
+                <Route path='/unidades/create' element={<CreateUnidade />} />
 
             </Routes>
 
