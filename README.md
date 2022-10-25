@@ -11,4 +11,4 @@
 
 ## [Projeto final:](./Projeto/README.md)
 
-O meu projeto final teve como tema o desenvolvimento de um sistema web de gerenciamento de impressoras e toners.
+O meu projeto final teve como tema o desenvolvimento de um sistema web para o gerenciamento de impressoras e toners.
