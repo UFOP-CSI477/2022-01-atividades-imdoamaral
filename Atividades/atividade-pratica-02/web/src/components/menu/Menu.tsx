@@ -20,6 +20,8 @@ const Menu = () => {
                 <li><Link to='/locais-coleta/create'>Criar Local de Coleta</Link></li>
                 <li><Link to='/doacoes'>Listar Doações</Link></li>
                 <li><Link to='/doacoes/create'>Criar Doação</Link></li>
+                <li><Link to='/produtos'>Listar Produtos</Link></li>
+                <li><Link to='/produtos/create'>Criar Produtos</Link></li>
             </ul>
         </div>
     )

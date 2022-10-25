@@ -15,6 +15,8 @@ import CreateLocalColeta from './components/locais_coleta/CreateLocalColeta';
 import ListLocaisColeta from './components/locais_coleta/ListLocaisColeta';
 import CreatePessoa from './components/pessoas/CreatePessoa';
 import ListPessoas from './components/pessoas/ListPessoas';
+import CreateProduto from './components/produtos/CreateProduto';
+import ListProdutos from './components/produtos/ListProdutos';
 import CreateTipoSanguineo from './components/tipos_sanguineos/CreateTipoSanguineo';
 import ListTipoSanguineos from './components/tipos_sanguineos/ListTiposSanguneos';
 
@@ -38,13 +40,15 @@ const AppRoutes = () => {
                 <Route path='/cidades/show/:id' element={<ShowCidade />}/>
                 <Route path='/cidades/update/:id' element={<UpdateCidade />} />
                 <Route path='/pessoas' element={<ListPessoas />} />
-                <Route path='/tipos-sanguineos' element={<ListTipoSanguineos />} />
                 <Route path='/pessoas/create' element={<CreatePessoa />} />
+                <Route path='/tipos-sanguineos' element={<ListTipoSanguineos />} />
                 <Route path='/tipos-sanguineos/create' element={<CreateTipoSanguineo />} />
                 <Route path='/locais-coleta' element={<ListLocaisColeta />} />
                 <Route path='/locais-coleta/create' element={<CreateLocalColeta />} />
                 <Route path='/doacoes' element={<ListDoacoes />} />
                 <Route path='/doacoes/create' element={<CreateDoacao />} />
+                <Route path='/produtos' element={<ListProdutos />} />
+                <Route path='/produtos/create' element={<CreateProduto />} />
 
             </Routes>
 
