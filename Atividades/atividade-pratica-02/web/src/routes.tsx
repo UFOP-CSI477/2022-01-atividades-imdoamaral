@@ -4,6 +4,8 @@ import CreateCidade from './components/cidades/CreateCidade';
 import ListCidades from './components/cidades/ListCidades';
 import ShowCidade from './components/cidades/ShowCidade';
 import UpdateCidade from './components/cidades/UpdateCidade';
+import CreateDoacao from './components/doacoes/CreateDoacao';
+import ListDoacoes from './components/doacoes/ListDoacoes';
 import CreateEstado from './components/estados/CreateEstado';
 import ListEstados from './components/estados/ListEstados';
 import ShowEstado from './components/estados/ShowEstado';
@@ -41,6 +43,8 @@ const AppRoutes = () => {
                 <Route path='/tipos-sanguineos/create' element={<CreateTipoSanguineo />} />
                 <Route path='/locais-coleta' element={<ListLocaisColeta />} />
                 <Route path='/locais-coleta/create' element={<CreateLocalColeta />} />
+                <Route path='/doacoes' element={<ListDoacoes />} />
+                <Route path='/doacoes/create' element={<CreateDoacao />} />
 
             </Routes>
 
